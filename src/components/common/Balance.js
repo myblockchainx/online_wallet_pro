@@ -16,7 +16,7 @@ const Balance = ({ amount }) => {
     if (!amount) {
         throw new Error('amount property should not be null')
     }
-    let amountShow = formatNEAR(amount)
+    let amountShow = formatCBASE(amount)
 
     return (
         <CustomDiv title={showInYocto(amount)}>
@@ -25,7 +25,7 @@ const Balance = ({ amount }) => {
     )
 }
 
-export const formatNEAR = (amount) => {
+export const formatCBASE = (amount) => {
     let ret =  utils.format.formatNearAmount(amount, FRAC_DIGITS)
     if (ret === '0') {
         return `<${

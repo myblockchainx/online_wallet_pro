@@ -52,7 +52,7 @@ const ContactsRemove = () => (
                 <div>3d ago</div>
             </div>
             <div className='row border-top'>
-                <b className='color-black'>You and Alex played NEAR Chess</b>
+                <b className='color-black'>You and Alex played CBASE Chess</b>
                 <div>1w ago</div>
             </div>
         </div>

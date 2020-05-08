@@ -25,7 +25,7 @@ const Container = styled.div`
     background-color: #24272a;
     position: fixed;
     height: 70px;
-    top: ${IS_MAINNET ? '0' : '35px'};
+    top: ${IS_MAINNET ? '0' : '0px'};
     left: 0;
     right: 0;
     z-index: 1000;
@@ -201,7 +201,7 @@ class DesktopContainer extends Component {
                 {showNavLinks &&
                     <>
                         <NavLinks/>
-                        <Help href='http://near.chat/' target='_blank' rel='noopener noreferrer'>Help</Help>
+                        <Help href='/' rel='noopener noreferrer'>Help</Help>
                         <User onClick={toggleMenu}>
                             <UserIcon/>
                             <UserName accountId={account.accountId}/>

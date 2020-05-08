@@ -105,7 +105,7 @@ class LoginDetails extends Component {
                                     </div>
                                     <div className='details-subitem color-charcoal-grey'>
                                         <div className='desc font-small'>
-                                            This app can use your NEAR for transaction fees
+                                            This app can use your CBASE for transaction fees
                                         </div>
                                         <div>
                                             <b>Total Allowance: .001Ⓝ</b>

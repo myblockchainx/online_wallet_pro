@@ -130,7 +130,7 @@
         "viewYourAccountName": "View your Account Name",
         "submitAnyTransaction": "Submit any transaction on your behalf",
         "useContract": "Use <b>${receiverId}</b> contract on your behalf",
-        "noKeys": "You have not connected your NEAR Wallet to any applications. When you do, you can manage them here.<br /><br />See what's been built with NEAR:",
+        "noKeys": "You have not connected your CBASE Wallet to any applications. When you do, you can manage them here.<br /><br />See what's been built with CBASE:",
         "dashboardNoKeys": "You have no full access keys"
     },
 
@@ -192,8 +192,8 @@
         "pageText": "If you’ve setup one or more account recovery methods, follow the instructions below to begin the recovery process.",
         "email": {
             "title": "Email",
-            "desc": "Check your email for a message from nearprotocol.com with the subject:",
-            "subject": "\"Important: Near Wallet Recovery Email\"."
+            "desc": "Check your email for a message from CBASEprotocol.com with the subject:",
+            "subject": "\"Important: CBASE Wallet Recovery Email\"."
         },
         "phone": {
             "title": "Phone",
@@ -230,7 +230,7 @@
 
     "topLevelAccounts": {
         "header": "Top Level Accounts",
-        "body": "Account names are similar to domain names. Only the @${suffix} account can create accounts such as @yourname.${suffix}, and only @yourname.${suffix} can create @app.yourname.${suffix}. All accounts created in this wallet use the .${suffix} Top Level Account (TLA). To learn more about account names and creating your own TLA, visit the <a rel='noopener noreferrer' href='https://docs.nearprotocol.com/docs/concepts/account'>docs</a>."
+        "body": "Account names are similar to domain names. Only the @${suffix} account can create accounts such as @yourname.${suffix}, and only @yourname.${suffix} can create @app.yourname.${suffix}. All accounts created in this wallet use the .${suffix} Top Level Account (TLA). To learn more about account names and creating your own TLA, visit the <a rel='noopener noreferrer' href='https://docs.CBASEprotocol.com/docs/concepts/account'>docs</a>."
     },
 
     "recoverSeedPhrase": {
@@ -286,14 +286,14 @@
 
     "disclaimer": {
         "title": "DISCLAIMER",
-        "text": "This is a developers&apos; preview Wallet. It should be used for NEAR Protocol DevNet only. Learn more at "
+        "text": "This is a developers&apos; preview Wallet. It should be used for CBASE Protocol DevNet only. Learn more at "
     },
 
     "footer": {
-        "copyrights": "NEAR Inc. All Rights Reserved.",
+        "copyrights": "CBASE Inc. All Rights Reserved.",
         "termsOfService": "Terms of Service",
         "privacyPolicy": "Privacy Policy",
-        "desc": "NEAR is a scalable computing and storage platform that changes how the web works for better.",
+        "desc": "CBASE is a scalable computing and storage platform that changes how the web works for better.",
         "learnMore": "Learn More",
         "needHelp": "Need Help?",
         "contactSupport": "Contact Support"
@@ -330,7 +330,7 @@
             "transferTokens": "Transfer tokens from your account to other accounts",
             "deploySmartContracts": "Deploy smart contracts",
             "callFunctions": "Call functions on any smart contract",
-            "stakeAndUnstake": "Stake and unstake NEAR tokens",
+            "stakeAndUnstake": "Stake and unstake CBASE tokens",
             "createAndDeleteAccessKeys": "Create and delete access keys",
             "forContract": "For Contract",
             "function": "Function",
@@ -357,7 +357,7 @@
     },
     "nodeStaking": {
         "pageTitle": "Node & Staking",
-        "pageText": "@nodeandstaking.near",
+        "pageText": "@nodeandstaking.CBASE",
         "steps": {
             "title": "To run a node or stake, please fallow these steps:",
             "one": {
@@ -463,9 +463,9 @@
         },
         "ActionWarrning": {
             "functionCall": "No description specified for this function.",
-            "deployContract": "You are about to deploy a contract to your account! This contract can access your NEAR balance, and interact with other contracts on your behalf.",
-            "stake": "You are about to stake NEAR tokens. These tokens will be locked, and are at risk of being lost if your validator becomes unresponsive.",
-            "deleteAccount": "You are about to delete your account! Your NEAR balance will be destroyed, and all of your account data deleted."
+            "deployContract": "You are about to deploy a contract to your account! This contract can access your CBASE balance, and interact with other contracts on your behalf.",
+            "stake": "You are about to stake CBASE tokens. These tokens will be locked, and are at risk of being lost if your validator becomes unresponsive.",
+            "deleteAccount": "You are about to delete your account! Your CBASE balance will be destroyed, and all of your account data deleted."
         },
         "insufficientFunds": "Insufficient Funds",
         "hereAreSomeDetails": "Here are some details that will help you.",

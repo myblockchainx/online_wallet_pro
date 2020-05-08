@@ -7,7 +7,7 @@ import { Translate } from 'react-localize-redux'
 
 import styled from 'styled-components'
 
-import Balance, { formatNEAR } from '../common/Balance'
+import Balance, { formatCBASE } from '../common/Balance'
 import { utils } from 'nearlib'
 
 const CustomDiv = styled(`div`)`

@@ -13,7 +13,7 @@ import '../index.css'
 
 import Navigation from './navigation/Navigation'
 import Footer from './common/Footer'
-import NetworkBanner from './common/NetworkBanner'
+// import NetworkBanner from './common/NetworkBanner'
 import PrivateRoute from './common/PrivateRoute'
 import DashboardDetailWithRouter from './dashboard/DashboardDetail'
 import { CreateAccountWithRouter } from './accounts/CreateAccount'
@@ -102,7 +102,7 @@ class Routing extends Component {
                 <GlobalStyle />
                 <ConnectedRouter basename={PATH_PREFIX}  history={this.props.history}>
                     <ThemeProvider theme={theme}>
-                        <NetworkBanner/>
+                        {/* <NetworkBanner/> */}
                         <Navigation/>
                         <GlobalAlert/>
                         {this.props.account.loader === false && (
