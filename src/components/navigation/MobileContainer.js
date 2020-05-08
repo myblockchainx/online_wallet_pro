@@ -18,7 +18,7 @@ const Container = styled.div`
     font-family: 'benton-sans',sans-serif;
     background-color: #24272a;
     height: 70px;
-    top: ${IS_MAINNET ? '0' : '35px'};
+    top: ${IS_MAINNET ? '0' : '0px'};
     z-index: 1000;
     padding: 0 15px;
     position: fixed;
