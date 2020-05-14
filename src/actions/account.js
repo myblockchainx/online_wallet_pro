@@ -114,7 +114,8 @@ export const allowLogin = () => async (dispatch, getState) => {
         parsedUrl.searchParams.set('account_id', account.accountId)
         parsedUrl.searchParams.set('public_key', public_key)
         parsedUrl.searchParams.set('all_keys', allKeys.join(','))
-        window.location = parsedUrl.href
+        
+        window.location.href = "/"
     } else {
         await dispatch(push({ pathname: '/authorized-apps' }))
     }
