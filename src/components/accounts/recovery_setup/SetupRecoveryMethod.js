@@ -49,7 +49,7 @@ const OptionSubHeader = styled.div`
 class SetupRecoveryMethod extends Component {
 
     state = {
-        option: 'email',
+        option: 'phrase',
         phoneNumber: '',
         email: '',
         success: false
@@ -111,9 +111,9 @@ class SetupRecoveryMethod extends Component {
                 <Container className='ui container' onSubmit={e => {this.handleNext(); e.preventDefault();}}>
                     <h1><Translate id='setupRecovery.header'/></h1>
                     <h2><Translate id='setupRecovery.subHeader'/></h2>
-                    <OptionHeader><Translate id='setupRecovery.basicSecurity'/></OptionHeader>
-                    <OptionSubHeader><Translate id='setupRecovery.basicSecurityDesc'/></OptionSubHeader>
-                    <RecoveryOption
+                    {/* <OptionHeader><Translate id='setupRecovery.basicSecurity'/></OptionHeader>
+                    <OptionSubHeader><Translate id='setupRecovery.basicSecurityDesc'/></OptionSubHeader> */}
+                    {/* <RecoveryOption
                         onClick={() => this.setState({ option: 'email' })}
                         option='email'
                         active={option === 'email'}
@@ -127,8 +127,8 @@ class SetupRecoveryMethod extends Component {
                                 />
                             )}
                         </Translate>
-                    </RecoveryOption>
-                    <RecoveryOption
+                    </RecoveryOption> */}
+                    {/* <RecoveryOption
                         onClick={() => this.setState({ option: 'phone' })}
                         option='phone'
                         active={option === 'phone'}
@@ -142,7 +142,7 @@ class SetupRecoveryMethod extends Component {
                                 />
                             )}
                         </Translate>
-                    </RecoveryOption>
+                    </RecoveryOption> */}
                     <OptionHeader><Translate id='setupRecovery.advancedSecurity'/></OptionHeader>
                     <OptionSubHeader><Translate id='setupRecovery.advancedSecurityDesc'/></OptionSubHeader>
                     <RecoveryOption
